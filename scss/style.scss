@@ -1,0 +1,23 @@
+$font-path: '../fonts/';
+
+@font-face {
+    font-family: "lato_regular";
+    src: url(#{$font-path}lato_regular.ttf);
+}
+
+@font-face {
+    font-family: "lato_bold";
+    src: url(#{$font-path}lato_bold.ttf);
+}
+
+
+@import "variables";
+@import "header";
+@import "footer";
+@import "card";
+@import "imgStyles";
+
+body {
+    background-color: $bg-principal;
+    color: $white;
+}

@@ -1,0 +1,37 @@
+.card-animation {
+    position: relative;
+    transition: all 0.2s ease-in-out;
+    background-color: #325935;
+
+    &:hover {
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        transform: translateY(-5px);
+    }
+}
+
+.card {
+    border-radius: 20px;
+
+    // &Style {
+    //     // width: 500px;
+    //     // height: 450px;
+    // }
+}
+
+.custom-title {
+    font-family: 'lato_bold';
+    color: #FFF8DE;
+    font-size: 36px;
+}
+
+.custom-text {
+    font-family: 'lato_regular';
+    color: rgba(245, 242, 239, 0.7);
+    font-size: 17px;
+}
+
+.custom-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
