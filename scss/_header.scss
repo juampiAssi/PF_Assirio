@@ -17,6 +17,14 @@
         color: #f5f2ef;
         font-size: 19px;
     }
+
+    a {
+        color: black;
+
+        &:hover {
+            color: #FFF8DE;
+        }
+    }
 }
 
 .buttonStyle {

@@ -38,6 +38,12 @@
   color: #f5f2ef;
   font-size: 19px;
 }
+.navbar a {
+  color: black;
+}
+.navbar a:hover {
+  color: #FFF8DE;
+}
 
 .buttonStyle {
   background-color: #e34248;
