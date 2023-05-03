@@ -1,3 +1,6 @@
+@import "variables";
+
+
 .card-animation {
     position: relative;
     transition: all 0.2s ease-in-out;
@@ -11,11 +14,9 @@
 
 .card {
     border-radius: 20px;
-
-    // &Style {
-    //     // width: 500px;
-    //     // height: 450px;
-    // }
+    background: #325935;
+    box-shadow: 34px 34px 69px #020c09,
+        -34px -34px 69px #06271f;
 }
 
 .custom-title {

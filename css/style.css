@@ -46,6 +46,22 @@
   border-radius: 20px;
 }
 
+h1 {
+  font-family: "lato_bold", sans-serif;
+  color: #f5f2ef;
+  font-size: 65px;
+}
+
+p {
+  font-family: "lato_regular", sans-serif;
+  color: rgba(245, 242, 239, 0.7);
+  font-size: 18px;
+}
+
+main {
+  width: 100%;
+}
+
 .footerStyle {
   height: 150px;
   margin: 0;
@@ -63,6 +79,14 @@
   font-size: 14px;
 }
 
+@font-face {
+  font-family: "lato_regular";
+  src: url(../fonts/lato_regular.ttf);
+}
+@font-face {
+  font-family: "lato_bold";
+  src: url(../fonts/lato_bold.ttf);
+}
 .card-animation {
   position: relative;
   transition: all 0.2s ease-in-out;
@@ -75,6 +99,8 @@
 
 .card {
   border-radius: 20px;
+  background: #325935;
+  box-shadow: 34px 34px 69px #020c09, -34px -34px 69px #06271f;
 }
 
 .custom-title {
@@ -103,12 +129,13 @@
 }
 
 .imgStyle {
-  border-radius: 20px;
-  border: 2px solid #325935;
+  border-radius: 50px;
+  background: #041914;
+  box-shadow: 36px 36px 71px #020c0a, -36px -36px 71px #06261e;
 }
 
 body {
-  background-color: rgb(4, 25, 20);
+  background-color: #041914;
   color: #f5f2ef;
 }
 
