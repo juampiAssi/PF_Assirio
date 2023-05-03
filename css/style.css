@@ -68,6 +68,11 @@ main {
   width: 100%;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .footerStyle {
   height: 150px;
   margin: 0;
@@ -80,7 +85,7 @@ main {
   border-top: 2px solid #FFF8DE;
 }
 .footerStyle h3 {
-  font-family: "lato_regular";
+  font-family: "lato_regular", sans-serif;
   color: rgba(245, 242, 239, 0.7);
   font-size: 14px;
 }
