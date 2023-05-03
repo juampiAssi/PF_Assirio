@@ -134,6 +134,57 @@ main {
   box-shadow: 36px 36px 71px #020c0a, -36px -36px 71px #06261e;
 }
 
+.cta {
+  position: relative;
+  margin: auto;
+  padding: 12px 18px;
+  transition: all 0.2s ease;
+  border: none;
+  background: none;
+}
+.cta:before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 0;
+  display: block;
+  border-radius: 50px;
+  background: #325935;
+  width: 45px;
+  height: 45px;
+  transition: all 0.3s ease;
+}
+.cta span {
+  position: relative;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #FFF8DE;
+}
+.cta svg {
+  position: relative;
+  top: -1px;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #FFF8DE;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+}
+.cta:hover:before {
+  width: 100%;
+  background: #325935;
+}
+.cta:hover svg {
+  transform: translateX(0);
+}
+.cta:active {
+  transform: scale(0.95);
+}
+
 body {
   background-color: #041914;
   color: #f5f2ef;
