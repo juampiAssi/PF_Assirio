@@ -104,13 +104,13 @@ main {
 }
 
 .custom-title {
-  font-family: "lato_bold";
+  font-family: "lato_bold", sans-serif;
   color: #FFF8DE;
   font-size: 36px;
 }
 
 .custom-text {
-  font-family: "lato_regular";
+  font-family: "lato_bold", sans-serif;
   color: rgba(245, 242, 239, 0.7);
   font-size: 17px;
 }
