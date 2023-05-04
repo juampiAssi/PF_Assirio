@@ -8,6 +8,8 @@ $h4Color: #8F8F96;
 
 
 //FUENTES
+$font-path: '../fonts/';
+
 @font-face {
     font-family: "lato_regular";
     src: url(#{$font-path}lato_regular.ttf);
