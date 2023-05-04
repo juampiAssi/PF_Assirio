@@ -24,7 +24,7 @@ body {
     color: $white;
 }
 
-
+//agrego estos Media para que los titulos adapten su tamaño dependiendo del tamaño de la pantalla
 @media (max-width: 576px) {
     h1 {
         font-size: 2rem;
