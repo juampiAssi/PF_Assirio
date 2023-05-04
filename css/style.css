@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "lato_regular";
   src: url(../fonts/lato_regular.ttf);
@@ -76,7 +77,6 @@ a {
 h4 {
   color: #8F8F96;
   font-size: 18px;
-  margin-left: 19%;
 }
 
 .h1Porject {
@@ -84,6 +84,17 @@ h4 {
   margin-left: 19%;
 }
 
+.h4Style {
+  margin-left: 19%;
+}
+
+/*Creo este media porque tengía un h4 que no se modificaba al momento de achicar la pantalla.
+De esta manera lo fuerzo a hacerlo*/
+@media (max-width: 576px) {
+  .h4Style {
+    margin-left: 0%;
+  }
+}
 .footerStyle {
   height: 150px;
   width: auto;

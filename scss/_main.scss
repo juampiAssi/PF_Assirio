@@ -27,10 +27,21 @@ a {
 h4 {
     color: $h4Color;
     font-size: 18px;
-    margin-left: 19%;
 }
 
 .h1Porject {
     font-size: 48px;
     margin-left: 19%;
+}
+
+.h4Style {
+    margin-left: 19%;
+}
+
+/*Creo este media porque tengía un h4 que no se modificaba al momento de achicar la pantalla.
+De esta manera lo fuerzo a hacerlo*/
+@media (max-width: 576px) {
+    .h4Style {
+        margin-left: 0%;
+    }
 }
