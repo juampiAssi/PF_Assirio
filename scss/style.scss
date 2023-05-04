@@ -24,7 +24,7 @@ body {
     color: $white;
 }
 
-//agrego estos Media para que los titulos adapten su tamaño dependiendo del tamaño de la pantalla
+//Agrego estos Media para que los titulos adapten su tamaño dependiendo del tamaño de la pantalla
 @media (max-width: 576px) {
     h1 {
         font-size: 2rem;
@@ -56,13 +56,13 @@ body {
 
 @media (min-width: 577px) {
 
-    /* Mostrar el elemento h1 en pantallas grandes */
+
     h1 {
         display: block;
         font-weight: bold;
     }
 
-    /* Ocultar el elemento h2 en pantallas grandes */
+
     h2 {
         display: none;
     }

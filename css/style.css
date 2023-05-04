@@ -76,10 +76,12 @@ a {
 h4 {
   color: #5E5E63;
   font-size: 18px;
+  margin-left: 19%;
 }
 
 .h1Porject {
   font-size: 48px;
+  margin-left: 19%;
 }
 
 .footerStyle {
@@ -239,12 +241,10 @@ body {
   }
 }
 @media (min-width: 577px) {
-  /* Mostrar el elemento h1 en pantallas grandes */
   h1 {
     display: block;
     font-weight: bold;
   }
-  /* Ocultar el elemento h2 en pantallas grandes */
   h2 {
     display: none;
   }
