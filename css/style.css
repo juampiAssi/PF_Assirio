@@ -94,6 +94,10 @@ De esta manera lo fuerzo a hacerlo*/
     box-shadow: 34px 34px 69px #020c09,
         -34px -34px 69px #06271f;
 } */
+.sStyle {
+  background-color: #003ECB;
+}
+
 .footerStyle {
   height: 150px;
   width: auto;
@@ -153,6 +157,13 @@ De esta manera lo fuerzo a hacerlo*/
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+
+.cardSection {
+  padding: 20px;
+  border-radius: 20px;
+  background: #214029;
+  box-shadow: 34px 34px 69px #020c09, -34px -34px 69px #06271f;
 }
 
 .imgAboutSyle {
