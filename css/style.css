@@ -127,6 +127,7 @@ a {
 }
 
 .custom-image {
+  translate: 0px 10px;
   width: 100%;
   height: auto;
   border-radius: 10px;
