@@ -23,3 +23,47 @@ body {
     background-color: $bg-principal;
     color: $white;
 }
+
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h1,
+    h2 {
+        font-weight: bold;
+
+    }
+
+    h1 {
+        display: none;
+
+    }
+
+    h2 {
+        display: block;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 577px) {
+
+    /* Mostrar el elemento h1 en pantallas grandes */
+    h1 {
+        display: block;
+        font-weight: bold;
+    }
+
+    /* Ocultar el elemento h2 en pantallas grandes */
+    h2 {
+        display: none;
+    }
+}

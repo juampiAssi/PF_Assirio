@@ -73,8 +73,18 @@ a {
   color: inherit;
 }
 
+h4 {
+  color: #5E5E63;
+  font-size: 18px;
+}
+
+.h1Porject {
+  font-size: 48px;
+}
+
 .footerStyle {
   height: 150px;
+  width: auto;
   margin: 0;
   padding: 0;
   background-color: #214029;
@@ -205,6 +215,39 @@ a {
 body {
   background-color: #041914;
   color: #f5f2ef;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  h1,
+  h2 {
+    font-weight: bold;
+  }
+  h1 {
+    display: none;
+  }
+  h2 {
+    display: block;
+  }
+  p {
+    font-size: 16px;
+  }
+}
+@media (min-width: 577px) {
+  /* Mostrar el elemento h1 en pantallas grandes */
+  h1 {
+    display: block;
+    font-weight: bold;
+  }
+  /* Ocultar el elemento h2 en pantallas grandes */
+  h2 {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
