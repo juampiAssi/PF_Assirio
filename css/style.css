@@ -74,7 +74,7 @@ a {
 }
 
 h4 {
-  color: #5E5E63;
+  color: #8F8F96;
   font-size: 18px;
   margin-left: 19%;
 }
@@ -225,6 +225,9 @@ body {
   }
   h2 {
     font-size: 1.5rem;
+  }
+  h4 {
+    margin-left: 0%;
   }
   h1,
   h2 {
