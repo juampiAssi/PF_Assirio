@@ -87,6 +87,11 @@ De esta manera lo fuerzo a hacerlo*/
     margin-left: 0%;
   }
 }
+/* SECTION: PAGE PROJECTS */
+h6 {
+  letter-spacing: 3px;
+}
+
 .footerStyle {
   height: 150px;
   width: auto;
