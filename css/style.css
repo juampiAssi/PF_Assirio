@@ -268,6 +268,115 @@ De esta manera lo fuerzo a hacerlo*/
   box-shadow: 0 0 0 0 #f5f2ef;
 }
 
+@font-face {
+  font-family: "lato_regular";
+  src: url(../fonts/lato_regular.ttf);
+}
+@font-face {
+  font-family: "lato_bold";
+  src: url(../fonts/lato_bold.ttf);
+}
+.form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  background-image: linear-gradient(45deg, #041914, #214029);
+  border-radius: 2.5em;
+  padding: 30px;
+  width: 300px;
+  height: 350px;
+  box-shadow: 34px 34px 69px #020c09, -34px -34px 69px #06271f;
+}
+
+.form::before {
+  content: "";
+  background-image: linear-gradient(45deg, #041914, #214029);
+  height: 358px;
+  width: 309px;
+  position: absolute;
+  margin-top: -34px;
+  margin-left: px;
+  z-index: -1;
+  border-radius: 2.7em;
+}
+
+.button {
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  background: #214029;
+  color: #f5f2ef;
+  padding: 0.7em 5.5em;
+  display: flex;
+  align-items: center;
+  border: 2px solid #214029;
+  border-radius: 5em;
+  overflow: hidden;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.button:hover {
+  border: 2px solid #041914;
+  background: #041914;
+  color: #f5f2ef;
+}
+
+.button:active {
+  border: 2px solid rgba(102, 218, 67, 0);
+  background: #5e8c5d;
+  color: black;
+}
+
+.input {
+  width: calc(100% - 10px);
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(102, 218, 67, 0);
+  border-bottom: 1px solid #5e8c5d;
+  outline: none;
+  background-color: transparent;
+  color: #5e8c5d;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.2s;
+}
+
+.input:focus {
+  border: 1px solid rgba(102, 218, 67, 0);
+  border-bottom: 1px solid #5e8c5d;
+  background-color: transparent;
+  color: white;
+}
+
+.input::placeholder {
+  color: #f5f2ef;
+}
+
+.textarea {
+  font-family: Arial, Helvetica, sans-serif;
+  width: calc(100% - 10px);
+  padding: 8px;
+  height: 100px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(102, 218, 67, 0);
+  border-bottom: 1px solid #5e8c5d;
+  outline: none;
+  background-color: transparent;
+  color: #5e8c5d;
+}
+
+.textarea::placeholder {
+  color: #f5f2ef;
+}
+
+.textarea:focus {
+  border: 1px solid rgba(102, 218, 67, 0);
+  border-bottom: 1px solid #214029;
+  background-color: transparent;
+  color: white;
+}
+
 body {
   background-color: #041914;
   color: #f5f2ef;
