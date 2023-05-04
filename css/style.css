@@ -45,6 +45,11 @@
   border-radius: 20px;
 }
 
+@media screen and (max-width: 576px) {
+  .header {
+    overflow-x: hidden;
+  }
+}
 h1 {
   font-family: "lato_bold", sans-serif;
   color: #f5f2ef;
@@ -238,6 +243,29 @@ De esta manera lo fuerzo a hacerlo*/
 }
 .cta:active {
   transform: scale(0.95);
+}
+
+.bcV {
+  background-color: #214029;
+  color: #f5f2ef;
+  border-radius: 10em;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 1em 2em;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid #f5f2ef;
+  box-shadow: 0 0 0 0 white;
+}
+
+.bcV:hover {
+  transform: translateY(-4px) translateX(-2px);
+  box-shadow: 2px 5px 0 0 #f5f2ef;
+}
+
+.bcV:active {
+  transform: translateY(2px) translateX(1px);
+  box-shadow: 0 0 0 0 #f5f2ef;
 }
 
 body {
