@@ -184,6 +184,11 @@ De esta manera lo fuerzo a hacerlo*/
   height: auto;
 }
 
+.imgCvStyle {
+  width: 300px;
+  height: auto;
+}
+
 .cta {
   position: relative;
   margin: auto;
